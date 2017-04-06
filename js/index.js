@@ -50,6 +50,43 @@ function morphThis(_val)
 		_current = "#p1";
 
 		morph.to("#p1", 1.0, { morphSVG: "#p1", ease:Power1.easeOut });
+
+	} else if (_val == "l4") {
+		console.log("to: p4");
+		_to = "#p4";
+		_current = "#p1";
+
+		morph.to("#p1", 1.0, { morphSVG: "#p4", ease:Power1.easeOut });
+	} else if (_val == "l5") {
+		console.log("to: p5");
+		_to = "#p5";
+		_current = "#p1";
+
+		morph.to("#p1", 1.0, { morphSVG: "#p5", ease:Power1.easeOut });
+	} else if (_val == "l6") {
+		console.log("to: p6");
+		_to = "#p6";
+		_current = "#p1";
+
+		morph.to("#p1", 1.0, { morphSVG: "#p6", ease:Power1.easeOut });
+	} else if (_val == "l7") {
+		console.log("to: p7");
+		_to = "#p7";
+		_current = "#p1";
+
+		morph.to("#p1", 1.0, { morphSVG: "#p7", ease:Power1.easeOut });
+	} else if (_val == "l8") {
+		console.log("to: p8");
+		_to = "#p8";
+		_current = "#p1";
+
+		morph.to("#p1", 1.0, { morphSVG: "#p8", ease:Power1.easeOut });
+	} else if (_val == "l9") {
+		console.log("to: p9");
+		_to = "#p9";
+		_current = "#p1";
+
+		morph.to("#p1", 1.0, { morphSVG: "#p9", ease:Power1.easeOut });
 	}
 
 
